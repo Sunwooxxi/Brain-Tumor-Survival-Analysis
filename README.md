@@ -1,2 +1,2 @@
 # AI-DynaInfo
-AI-based survival analysis for cirrhosis
+AI-based survival analysis for Bone Marrow and Blood cancer
