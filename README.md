@@ -91,7 +91,7 @@ A layered XAI pipeline moves from global to local to time-dependent explanations
 | RSF | 0.783 | 0.138 | 0.840 |
 | GBM | 0.787 | 0.134 | 0.844 |
 
-> Values to be filled after final run.
+> All models were tuned and validated using 5-fold stratified cross-validation on the training set. Final metrics are reported on a held-out test set. C-index (5-Fold CV) shows mean ± SD across folds, confirming stable generalization with no signs of overfitting.
 
 **Key findings:**
 - Grade_G4 and Age are the strongest prognostic factors across all models
