@@ -192,10 +192,10 @@ Place `clinical.tsv` (downloaded from GDC Portal) in the project root, then run 
 ## Citation
 
 ```bibtex
-@article{yourname2025,
+@article{'',
   title   = {Time-Dependent Survival Analysis for Brain Tumors with Explainable ML},
   author  = {Sunwoo Jung},
-  journal = {JOURNAL NAME},
+  journal = {''},
   year    = {2026}
 }
 ```
