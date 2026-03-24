@@ -43,7 +43,7 @@ A layered XAI pipeline moves from global to local to time-dependent explanations
 
 - **Source**: [TCGA](https://portal.gdc.cancer.gov/) brain tumor cohort
 - **Filter**: Primary tumors, index date = Diagnosis
-- **Final cohort**: N = XXX patients after exclusion criteria
+- **Final cohort**: N = 1,664 patients after exclusion criteria
 - **Outcome**: Overall survival (days to death / last follow-up)
 - **Features**: 14 variables (see Table 1 in paper)
 
@@ -87,9 +87,9 @@ A layered XAI pipeline moves from global to local to time-dependent explanations
 
 | Model | C-index | IBS | iAUC |
 |-------|---------|-----|------|
-| Cox PH | — | — | — |
-| RSF | — | — | — |
-| GBM | — | — | — |
+| Cox PH | 0.800 | 0.136 | 0.858 |
+| RSF | 0.783 | 0.138 | 0.840 |
+| GBM | 0.787 | 0.134 | 0.844 |
 
 > Values to be filled after final run.
 
