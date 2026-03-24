@@ -198,10 +198,8 @@ Place `clinical.tsv` (downloaded from GDC Portal) in the project root, then run 
   journal = {JOURNAL NAME},
   year    = {2026}
 }
-> Soon to be filled after final modification.
-
 ```
-
+> Soon to be filled after final modification.
 ---
 
 ## License
