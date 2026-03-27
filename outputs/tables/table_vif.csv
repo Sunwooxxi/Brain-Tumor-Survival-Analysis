@@ -1,0 +1,11 @@
+﻿Variable,VIF
+Grade_G4,5.89
+Site_Cerebrum,4.87
+Grade_G3,1.59
+Age,1.32
+Site_Other,1.13
+Era_Before2005,1.12
+Tx_Single,1.06
+Prior_cancer,1.03
+Tx_None,1.02
+Sex,1.01

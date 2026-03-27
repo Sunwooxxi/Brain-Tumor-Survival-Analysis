@@ -1,0 +1,15 @@
+﻿Feature,SHAP_mean,Model
+Grade_G4,0.5823,GBM
+Age,0.5345,GBM
+Grade_G2,0.1745,GBM
+Sex,0.0613,GBM
+Tx_Standard,0.0481,GBM
+Era_After2005,0.0449,GBM
+Tx_Single,0.0374,GBM
+Grade_G3,0.0366,GBM
+Site_BrainNOS,0.0346,GBM
+Tx_None,0.0237,GBM
+Prior_cancer,0.0227,GBM
+Era_Before2005,0.0195,GBM
+Site_Cerebrum,0.0062,GBM
+Site_Other,0.0007,GBM

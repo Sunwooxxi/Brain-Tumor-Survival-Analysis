@@ -1,0 +1,15 @@
+﻿Feature,Importance,Importance_std
+Grade_G4,0.0771,0.0128
+Age,0.0697,0.0141
+Site_BrainNOS,0.007,0.0041
+Tx_Single,0.0061,0.0018
+Grade_G2,0.0027,0.0014
+Era_After2005,0.0012,0.002
+Era_Before2005,0.0008,0.002
+Site_Cerebrum,0.0007,0.0021
+Grade_G3,0.0006,0.0008
+Tx_Standard,0.0001,0.0018
+Site_Other,0.0,0.0
+Tx_None,0.0,0.0
+Prior_cancer,-0.0001,0.0003
+Sex,-0.0002,0.0029

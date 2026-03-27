@@ -1,0 +1,15 @@
+﻿Feature,SHAP_mean,Model
+Grade_G4,104.6512,RSF
+Age,103.9613,RSF
+Site_BrainNOS,26.0283,RSF
+Sex,13.1451,RSF
+Site_Cerebrum,9.9709,RSF
+Grade_G2,8.1517,RSF
+Tx_Standard,7.9129,RSF
+Tx_Single,6.4307,RSF
+Era_After2005,6.1602,RSF
+Era_Before2005,5.2793,RSF
+Grade_G3,4.6125,RSF
+Prior_cancer,0.5167,RSF
+Site_Other,0.0,RSF
+Tx_None,0.0,RSF

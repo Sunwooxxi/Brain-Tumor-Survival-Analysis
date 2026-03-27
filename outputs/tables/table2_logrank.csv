@@ -1,0 +1,7 @@
+﻿Variable,Test stat,p-value,Significant
+Tumor Grade,428.439,0.0,***
+Age Group,316.821,0.0,***
+Treatment,77.411,0.0,***
+Sex,5.227,0.0222,*
+Diagnosis Era,38.11,0.0,***
+Primary Site,294.431,0.0,***
