@@ -8,6 +8,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Data](https://img.shields.io/badge/Data-TCGA-orange)
 
-> Survival analysis of brain tumor patients (TCGA, n=1,163) comparing Cox PH, Random Survival Forest (RSF), and Gradient Boosting Machine (GBM). Applies multi-layered XAI methods — PFI, SHAP, ALE, c-ICE, and SurvSHAP(t) — to provide time-dependent feature attribution and clinically interpretable prognostic insights. Demonstrates how ML complements Cox regression where the proportional hazards assumption is violated (Age, Era, Tx_None).
+> Survival analysis of brain tumor patients (TCGA, n=1,163) comparing Cox PH, Random Survival Forest (RSF), and Gradient Boosting Machine (GBM). Applies multi-layered XAI methods — PFI, SHAP, ALE, c-ICE, and SurvSHAP(t) — to provide time-dependent feature attribution and clinically interpretable prognostic insights. Demonstrates how ML complements Cox regression where the proportional hazards assumption is violated.
 
 -
