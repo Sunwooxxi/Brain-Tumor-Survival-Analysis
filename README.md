@@ -211,8 +211,8 @@ Place `clinical.tsv` (downloaded from GDC Portal) in the `data/` directory, then
 
 ## Citation
 ```bibtex
-@article{jung2026brain,
-  title   = {Time-Dependent Survival Analysis for Brain Tumors with Explainable ML},
+@article{,
+  title   = {Time-Dependent Survival Analysis for Brain Tumors with XAI},
   author  = {Jung, Sunwoo},
   journal = {unpublished},
   year    = {2026}
