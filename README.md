@@ -7,7 +7,7 @@
 ![SurvSHAP](https://img.shields.io/badge/SurvSHAP(t)-0.4.2-purple)
 ![Data](https://img.shields.io/badge/Data-TCGA-orange)
 
-> Survival analysis of brain tumor patients (TCGA, n=1,163) comparing Cox PH, Random Survival Forest (RSF), and Gradient Boosting Machine (GBM). Applies multi-layered XAI methods — PFI, SHAP, ALE, c-ICE, and SurvSHAP(t) — to provide time-dependent feature attribution and clinically interpretable prognostic insights. Demonstrates how ML complements Cox regression where the proportional hazards assumption is violated.
+> Survival analysis of brain tumor patients (n=1,163) comparing Cox PH, Random Survival Forest (RSF), and Gradient Boosting Machine (GBM). Applies multi-layered XAI methods — PFI, SHAP, ALE, c-ICE, and SurvSHAP(t) — to provide time-dependent feature attribution and clinically interpretable prognostic insights. Demonstrates how ML complements Cox regression where the proportional hazards assumption is violated.
 
 ---
 
@@ -18,7 +18,7 @@ Cox proportional hazards (PH) regression remains the standard in clinical surviv
 This project addresses that limitation through a three-stage pipeline:
 
 **Stage 1 — Establish the baseline and quantify its limits.**
-A penalized Cox PH model is fitted on TCGA brain tumor data. Schoenfeld residual tests formally identify which variables violate the proportional hazards assumption (Age, Era_Before2005, Tx_None), providing a concrete benchmark for what Cox cannot model.
+A penalized Cox PH model is fitted on brain tumor data. Schoenfeld residual tests formally identify which variables violate the proportional hazards assumption (Age, Era_Before2005, Tx_None), providing a concrete benchmark for what Cox cannot model.
 
 **Stage 2 — Train assumption-free ML survival models.**
 Random Survival Forest (RSF) and Gradient Boosting Machine (GBM) are trained and tuned via 5-fold cross-validated grid search. Both models are evaluated against the Cox baseline on C-index, Integrated Brier Score (IBS), and time-dependent AUC at 1, 2, and 3 years.
@@ -42,7 +42,7 @@ A layered XAI pipeline moves from global to local to time-dependent explanations
 
 ## Dataset
 
-**Source**: [TCGA](https://portal.gdc.cancer.gov/) brain tumor cohort, accessed via GDC Data Portal.
+**Source**: (https://portal.gdc.cancer.gov/) brain tumor cohort, accessed via GDC Data Portal.
 
 **Inclusion criteria:** Primary brain tumors with index date set to diagnosis (`cases.index_date = 'Diagnosis'`).
 
