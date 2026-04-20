@@ -5,7 +5,6 @@
 ![scikit--survival](https://img.shields.io/badge/scikit--survival-0.27.0-blue)
 ![SHAP](https://img.shields.io/badge/SHAP-0.51.0-orange)
 ![SurvSHAP](https://img.shields.io/badge/SurvSHAP(t)-0.4.2-purple)
-![Data](https://img.shields.io/badge/Data-TCGA-orange)
 
 > Survival analysis of brain tumor patients (n=1,163) comparing Cox PH, Random Survival Forest (RSF), and Gradient Boosting Machine (GBM). Applies multi-layered XAI methods — PFI, SHAP, ALE, c-ICE, and SurvSHAP(t) — to provide time-dependent feature attribution and clinically interpretable prognostic insights. Demonstrates how ML complements Cox regression where the proportional hazards assumption is violated.
 
